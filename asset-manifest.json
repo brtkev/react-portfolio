@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.57480bfb.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.2fa3e577.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2fa3e577.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.5f248d5d.chunk.js": "/react-portfolio/static/js/2.5f248d5d.chunk.js",
+    "static/js/2.5f248d5d.chunk.js.map": "/react-portfolio/static/js/2.5f248d5d.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.57480bfb.chunk.css.map": "/react-portfolio/static/css/main.57480bfb.chunk.css.map",
+    "static/js/2.5f248d5d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5f248d5d.chunk.js.LICENSE.txt",
+    "static/media/Checkmark.svg": "/react-portfolio/static/media/Checkmark.950467d3.svg",
+    "static/media/Hamburger Menu.svg": "/react-portfolio/static/media/Hamburger Menu.c4da44b0.svg",
+    "static/media/Page Image.png": "/react-portfolio/static/media/Page Image.58001398.png",
+    "static/media/Sign Up Image.png": "/react-portfolio/static/media/Sign Up Image.8258e31f.png",
+    "static/media/User Avatar 2.svg": "/react-portfolio/static/media/User Avatar 2.720a3f18.svg",
+    "static/media/User Avatar 32.svg": "/react-portfolio/static/media/User Avatar 32.827af893.svg",
+    "static/media/User Avatar.svg": "/react-portfolio/static/media/User Avatar.0aa7a909.svg",
+    "static/media/allSizes.svg": "/react-portfolio/static/media/allSizes.12ae633b.svg",
+    "static/media/code.svg": "/react-portfolio/static/media/code.4e85a89a.svg",
+    "static/media/hero-Illustration.png": "/react-portfolio/static/media/hero-Illustration.c89141ed.png",
+    "static/media/hide password.svg": "/react-portfolio/static/media/hide password.69e86df7.svg",
+    "static/media/star.svg": "/react-portfolio/static/media/star.2257c844.svg",
+    "static/media/time.svg": "/react-portfolio/static/media/time.b86ed61a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.5f248d5d.chunk.js",
+    "static/css/main.57480bfb.chunk.css",
+    "static/js/main.2fa3e577.chunk.js"
+  ]
+}
