@@ -1,0 +1,37 @@
+#main-container{
+    width: 25vw;
+}
+
+#heading{
+    margin: 5px 0px;
+    font-size: 18px;
+    
+}
+
+#parragraph{
+    margin: 10px 0px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #666;
+}
+
+@media only screen and (max-width: 768px) {
+    #main-container{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #heading{
+        margin: 20px 0px;
+        font-size: 4vw;
+    }
+
+    #icon{
+        width: 8vw;
+    }
+
+    #parragraph{
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+}
