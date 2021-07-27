@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import Landing from "../pages/landing/Landing";
 import Fiber from "../pages/fiber/Fiber";
@@ -9,7 +9,7 @@ export default class AppRouter extends React.Component{
     render(){
 
         return(
-            <Router>
+            <Router basename='/' >
                 <Switch>
                     <Route exact path='/' component={Landing} />
                     <Route path='/fiber' component={Fiber} />
