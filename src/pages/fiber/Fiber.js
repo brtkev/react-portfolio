@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from './styles/fiber.module.css';
+
 import TopBarMenu from './components/topBarMenu';
 import Section1 from './components/section1';
 import Section2 from './components/section2';
@@ -21,10 +23,18 @@ class Fiber extends React.Component {
       return {signup : !state.signup};
     });
   }
+
+  componentDidMount = () => {
+    document.body.classList.add(styles['scrollbar']);
+  }
+  
+  componentWillUnmount = () => {
+    document.body.classList.remove(styles['scrollbar']);
+  }
   
   render(){
     return (
-      <div className="App">
+      <div  >
           { this.state.signup ? <Signup close={this.showSignup} /> : undefined}
           <TopBarMenu  showSignup={this.showSignup} />
           <Section1 />
