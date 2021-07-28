@@ -50,6 +50,10 @@
 .button-bold-text{
     font-size: 18px;
     font-weight: 600;
+    transition: transform .3s ease-in;
+}
+.button-bold-text:hover{
+    transform: scale(1.08);
 }
 
 .button-purple-style{
@@ -64,7 +68,7 @@
 }
 
 .button-purple-style:hover{
-    color: #aaa;
+    color: #fff;
 }
 
 .show-onMobile{

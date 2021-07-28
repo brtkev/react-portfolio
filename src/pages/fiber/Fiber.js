@@ -37,8 +37,8 @@ class Fiber extends React.Component {
       <div  >
           { this.state.signup ? <Signup close={this.showSignup} /> : undefined}
           <TopBarMenu  showSignup={this.showSignup} />
-          <Section1 />
-          <Section2 />
+          <Section1 showSignup={this.showSignup} />
+          <Section2 showSignup={this.showSignup} />
           <Footer />
       </div>
     );

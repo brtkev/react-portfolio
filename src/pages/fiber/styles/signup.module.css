@@ -16,6 +16,16 @@
     overflow-y: auto;
 }
 
+#page-container::-webkit-scrollbar{
+    background-color: inherit;
+    width: 5px;
+}
+
+#page-container::-webkit-scrollbar-thumb{
+    border-radius: 30px;
+    background-color: #62c;
+}
+
 
 
 #main-container{
@@ -72,10 +82,13 @@
     padding: 10px;
     outline: none;
     width: auto;
+
+    transition: transform .3s ease;
 }
 
 .input:focus{
     border: 1px solid #000;
+    transform: scale(1.08);
 }
 
 .input::placeholder{
@@ -99,10 +112,12 @@
     color: #fff;
     background-color: #63c;
 
+    transition: all .3s ease;
 }
 
 #form__button:hover{
     cursor: pointer;
+    transform: scale(1.08);
 }
 
 #signin-text{

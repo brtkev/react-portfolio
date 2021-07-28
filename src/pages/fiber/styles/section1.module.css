@@ -49,10 +49,12 @@
     font-size: 16px;
     font-weight: 600;
     padding: 0px 1.5vw;
+    transition: transform .3s ease-in;
 }
 
 .button:hover{
     cursor: pointer;
+    transform: scale(1.08);
 }
 
 #free-trial-button{
@@ -62,11 +64,9 @@
     /* width: 10vw; */
     border-radius: 5px;
     
-    
 }
 #free-trial-button:hover{
     color: #aaa;
-    /* background-color: #64d; */
 }
 
 #examples-button{

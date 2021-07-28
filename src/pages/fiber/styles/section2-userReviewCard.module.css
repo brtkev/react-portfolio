@@ -35,6 +35,8 @@
 #button:hover{
     cursor: pointer;
     background-color: #ddd;
+
+    transform: scale(.95);
 }
 
 
@@ -49,6 +51,7 @@
     font-size: 17px;
     font-weight: 600;
     color: #32c;
+    transition: transform .3s ease-in;
 }
 
 @media only screen and (max-width: 768px) {

@@ -62,7 +62,7 @@ class FeatureCard extends React.Component{
     }
 }
 
-const MiddleSubSection = ( ) => {
+const MiddleSubSection = ( props ) => {
 
 
     return(
@@ -70,7 +70,7 @@ const MiddleSubSection = ( ) => {
             <div id={middleSubSectionStyles['info-container']}>
                 <h3 id={middleSubSectionStyles['header']}>Diversify your portfolio.</h3>
                 <p id={middleSubSectionStyles['text']}>Create an even more impressive portfolio by creating case studies for your projects. Simply follow our step-by-step guide.</p>
-                <button id={middleSubSectionStyles['button']}>Start Free Trial</button>
+                <button onClick={props.showSignup} id={middleSubSectionStyles['button']}>Start Free Trial</button>
             </div>
             
             <div id={middleSubSectionStyles['image-container']}>
@@ -146,7 +146,7 @@ class Section2 extends React.Component{
 
                 <this.featureCardSection cardsInfo={featureCardsInfo} />
 
-                <MiddleSubSection />
+                <MiddleSubSection showSignup={this.props.showSignup} />
 
                 <this.ReviewCardSection cardsInfo={userReviews} />
 

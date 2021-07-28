@@ -30,7 +30,7 @@ class Section1 extends  React.Component{
                     </div>
                     <h1 id={styles['info-container__heading']}>Create your portfolio in minutes.</h1>
                     <p id={styles['info-container__parragraph']}>With fiber, you can setup your own personal protfolio in minutes with dozens of premade, beautiful templates.</p>
-                    <button className={styles['button']} id={styles['free-trial-button']}>Start Free Trial</button>
+                    <button onClick={this.props.showSignup} className={styles['button']} id={styles['free-trial-button']}>Start Free Trial</button>
                     <button className={styles['button']} id={styles['examples-button']}>View Examples</button>
 
                     <div id={styles['info-container__last-label']}>

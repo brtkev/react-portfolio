@@ -42,6 +42,7 @@
     background-color: #ddd;
     color: #222;
     cursor: pointer;
+    transform: scale(1.08);
 }
 
 #button{
@@ -53,7 +54,7 @@
     border-radius: 5px;
 
     font-size: 18px;
-
+    transition: transform .3s ease-in;
 }
 
 
